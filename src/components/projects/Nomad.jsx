@@ -7,7 +7,7 @@ import NomadPng from '../../assets/nomad.png';
 export const Nomad = () => {
     return (
         <li className="project-container">
-            <Parallax speed={10}>
+            <Parallax speed={20}>
             <div className="project-preview">
                 <img
                     className="project-preview"
@@ -16,7 +16,7 @@ export const Nomad = () => {
                 />
             </div>
             </Parallax>
-            <Parallax speed={-10}>
+            <Parallax speed={-20}>
             <div className="project-details position-right">
                 <h2 className="project-title">
                     Spontaneously

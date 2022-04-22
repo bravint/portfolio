@@ -5,13 +5,13 @@ import FootballPng from '../../assets/football.png';
 import '../../styles/projects.css';
 
 export const Football = () => {
-    const handleDemoClick = () => {}
+    // const handleDemoClick = () => {}
 
-    const handleCodeClick = () => {}
+    // const handleCodeClick = () => {}
 
     return (
         <li className="project-container">
-            <Parallax speed={-10}>
+            <Parallax speed={-20}>
                 <div className="project-details position-left">
                     <h2 className="project-title">
                         Football -
@@ -24,12 +24,12 @@ export const Football = () => {
                         have an overview of their form prior to their matches
                     </p>
                     <ExternalLinks
-                        handleCodeClick={handleCodeClick}
-                        handleDemoClick={handleDemoClick}
+                        // handleCodeClick={handleCodeClick}
+                        // handleDemoClick={handleDemoClick}
                     />
                 </div>
             </Parallax>
-            <Parallax speed={10}>
+            <Parallax speed={20}>
                 <div className="project-preview">
                     <img
                         className="project-preview"
