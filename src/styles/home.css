@@ -1,11 +1,11 @@
 .home {
-    height: calc(100vh - 3rem);
+    height: 100vh;
     background-color: var(--clr-offwhite);
     display: grid;
-    margin: auto;
     justify-content: center;
     align-items: center;
     color: var(--clr-blue);
+    margin-top: 4rem;
 }
 
 .hello-title {
@@ -14,6 +14,7 @@
     font-weight: 900;
     line-height: 1;
     color: var(--clr-red);
+    margin: auto;
 }
 
 .hello-subtitle {
@@ -31,6 +32,11 @@
     width: 25%;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+
+.scroll-container {
+    height: 3rem;
 }
 
 .scroll {

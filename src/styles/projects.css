@@ -1,5 +1,6 @@
 .project-container {
-    height: 60vh;
+    margin-top: 5rem;
+    min-height: 1000px;
     margin: auto;
     background-color: var(--clr-offwhite);
     padding: 2rem;

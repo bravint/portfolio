@@ -7,12 +7,16 @@ export const ScrollIndicator = () => {
 
     useEffect(() => {
         const toggleVisibility = () =>
-            window.pageYOffset > 30 ? setIsVisible(false) : setIsVisible(true);
+            window.pageYOffset > 5 ? setIsVisible(false) : setIsVisible(true);
 
         window.addEventListener('scroll', toggleVisibility);
 
         return () => window.removeEventListener('scroll', toggleVisibility);
     }, []);
 
-    return <>{isVisible && <p className="scroll">SCROLL TO SEE PROJECTS</p>}</>;
+    return (
+        <div className="scroll-container">
+            {isVisible && <p className="scroll">SCROLL TO SEE PROJECTS</p>}
+        </div>
+    );
 };

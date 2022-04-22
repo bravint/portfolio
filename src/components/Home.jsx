@@ -6,6 +6,7 @@ export const Home = () => {
     return (
         <>
             <section className="home">
+                <div></div>
                 <div className="hero-text">
                     <h1 className="hello-title">
                         Hello <br /> World.
@@ -20,8 +21,10 @@ export const Home = () => {
                     </h1>
                 </div>
                 {/* <img className="avatar" src="avatar-edit.png" alt="avatar" /> */}
+                <ScrollIndicator />
             </section>
-            <ScrollIndicator />
+            
+            
         </>
     );
 };

@@ -21,7 +21,7 @@ export const Contact = () => {
     };
 
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <p>Get in touch</p>
             <form className="contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="name">Name:</label>
@@ -42,8 +42,10 @@ export const Contact = () => {
                 />
                 <label htmlFor="message">Message:</label>
                 <input
-                    id="email"
-                    type="text"
+                    id="message"
+                    type="textarea"
+                    rows="4"
+                    cols="50"
                     value={form.message}
                     onChange={handleChange}
                     required
