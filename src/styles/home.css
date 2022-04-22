@@ -1,11 +1,15 @@
 .home {
-    height: 100vh;
+    height: calc(100vh - 3rem);
     background-color: var(--clr-offwhite);
     display: grid;
     margin: auto;
     justify-content: center;
     align-items: center;
-    
+    color: var(--clr-blue);
+}
+
+.hero {
+
 }
 
 .hello-text {
@@ -21,4 +25,10 @@
     width: 25%;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+.scroll {
+    background-color: var(--clr-offwhite);
+    text-align: center;
+    padding-bottom: 1rem;
 }
