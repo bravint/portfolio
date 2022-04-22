@@ -1,0 +1,15 @@
+.home {
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.avatar {
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    border: 1px solid black;
+}

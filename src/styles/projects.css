@@ -1,0 +1,33 @@
+.project-container {
+    height: 100vh;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    align-items: center;
+}
+
+.position-left {
+    padding-left: 5rem;
+}
+
+.position-right {
+    text-align: right;
+    padding-right: 5rem;
+}
+
+.project-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 10rem 0;
+    font-style: italic;
+}
+
+.project-subtitle{
+    font-size: 3rem;
+}
+
+.project-ext-links {
+    font-size: 2rem;
+}
