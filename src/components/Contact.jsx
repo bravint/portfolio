@@ -18,46 +18,47 @@ export const Contact = () => {
 
     const handleSubmit = () => {
         console.log(form);
+        // setForm(initialForm);
     };
 
     return (
         <section className="contact" id="contact">
-            <p>Get in touch</p>
-            <form className="contact-form" onSubmit={handleSubmit}>
-                <label htmlFor="name">Name:</label>
-                <input
-                    id="name"
-                    type="text"
-                    value={form.name}
-                    onChange={handleChange}
-                    required
-                />
-                <label htmlFor="email">Email Address:</label>
-                <input
-                    id="email"
-                    type="text"
-                    value={form.email}
-                    onChange={handleChange}
-                    required
-                />
+            <div className="contact-form-container">
+            <p className="contact-title">Get in <br />touch.</p>     
+            <form className="contact-form">
+                <div className="form-left">
+                    <label htmlFor="name">Name:</label>
+                    <input
+                        id="name"
+                        type="text"
+                        value={form.name}
+                        onChange={handleChange}
+                        required
+                    />
+
+                    <label htmlFor="email">Email Address:</label>
+                    <input
+                        id="email"
+                        type="text"
+                        value={form.email}
+                        onChange={handleChange}
+                        required
+                    />
+                    
+                </div>
+                <div className="form-right">
                 <label htmlFor="message">Message:</label>
-                <input
-                    id="message"
-                    type="textarea"
-                    rows="4"
-                    cols="50"
-                    value={form.message}
-                    onChange={handleChange}
-                    required
-                />
-                <button
-                    className="btn-submit"
-                    type="submit"
-                    onClick={handleSubmit}
-                >
-                    Send
-                </button>
+                    <textarea
+                        id="message"
+                        rows="4"
+                        value={form.message}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
             </form>
+            <p className="form-btn" onClick={handleSubmit}>Submit</p>
+            </div>
         </section>
     );
 };
