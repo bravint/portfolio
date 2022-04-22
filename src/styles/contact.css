@@ -1,0 +1,10 @@
+.contact-form {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.btn-submit {
+    margin: 1rem 0;
+}

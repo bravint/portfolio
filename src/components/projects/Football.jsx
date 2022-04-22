@@ -16,9 +16,8 @@ export const Football = () => {
                         Stats.
                     </h2>
                     <p className="project-subtitle">
-                        A place for me to follow european teams, so when they
-                        play each other in UEFA competitions I would be able to
-                        have an overview of their form prior to their matches
+                        A place for me to follow european teams, so I
+                        have an overview of their form prior to matches in UEFA competitions.
                     </p>
                     <ExternalLinks />
                 </div>
