@@ -16,7 +16,7 @@ export const Football = () => {
                     <h2 className="project-title">
                         Football -
                         <br />
-                        Stats .
+                        Stats.
                     </h2>
                     <p className="project-subtitle">
                         A place for me to follow european teams, so when they

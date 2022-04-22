@@ -8,12 +8,22 @@
     color: var(--clr-blue);
 }
 
-.hello-text {
+.hello-title {
     text-transform: uppercase;
     font-size: 10rem;
     font-weight: 900;
     line-height: 1;
     color: var(--clr-red);
+}
+
+.hello-subtitle {
+    margin: 1.5rem 0;
+    font-size: 4rem;
+    width: 60rem;
+}
+
+.hello-text {
+    font-size: 1.5rem;
 }
 
 .avatar {

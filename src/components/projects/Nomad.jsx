@@ -21,7 +21,7 @@ export const Nomad = () => {
                 <h2 className="project-title">
                     Spontaneously
                     <br />
-                    Nomadic .
+                    Nomadic.
                 </h2>
                 <p className="project-subtitle">
                     I love travelling, and wanted to build an app that would

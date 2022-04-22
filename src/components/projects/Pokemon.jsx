@@ -12,7 +12,7 @@ export const PokemonForum = () => {
                 <h2 className="project-title">
                     Pokémon
                     <br />
-                    Forum .
+                    Forum.
                 </h2>
                 <p className="project-subtitle">
                     A place to rate and discuss the 151 original (and best) Pokémon from Pokémon Red, Blue and Yellow.
