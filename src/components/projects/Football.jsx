@@ -11,7 +11,7 @@ export const Football = () => {
             <Parallax speed={-20}>
                 <div className="project-details position-left">
                     <h2 className="project-title">
-                        Football -
+                        Football
                         <br />
                         Stats.
                     </h2>
