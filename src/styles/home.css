@@ -8,10 +8,6 @@
     color: var(--clr-blue);
 }
 
-.hero {
-
-}
-
 .hello-text {
     text-transform: uppercase;
     font-size: 10rem;

@@ -1,5 +1,5 @@
 import { ExternalLinks } from './ExternalLinks';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 import '../../styles/projects.css';
 import PokemonPng from '../../assets/pokemon.png'
