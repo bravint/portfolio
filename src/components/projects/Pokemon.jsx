@@ -6,6 +6,14 @@ import PokemonPng from '../../assets/pokemon.png';
 import '../../styles/projects.css';
 
 export const PokemonForum = () => {
+    const handleCodeClick = () => {
+        window.open('https://github.com/bravint/project-team-fullstack', '_blank');
+    }
+
+    const handleDemoClick = () => {
+        window.open('https://github.com/bravint/project-team-fullstack', '_blank');
+    }
+
     return (
         <li className="project-container last-project">
             <Parallax speed={-20}>
@@ -20,7 +28,7 @@ export const PokemonForum = () => {
                         original (and best) Pokémon from Pokémon Red, Blue and
                         Yellow.
                     </p>
-                    <ExternalLinks />
+                    <ExternalLinks handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
                 </div>
             </Parallax>
             <Parallax speed={20}>

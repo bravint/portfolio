@@ -6,6 +6,13 @@ import NomadPng from '../../assets/nomad.png';
 import '../../styles/projects.css';
 
 export const Nomad = () => {
+    const handleCodeClick = () => {
+        window.open('https://github.com/bravint/spontaneously-nomadic-client', '_blank');
+    }
+
+    const handleDemoClick = () => {
+        window.open('https://github.com/bravint/spontaneously-nomadic-client', '_blank');
+    }
     return (
         <li className="project-container">
             <Parallax speed={20}>
@@ -28,7 +35,7 @@ export const Nomad = () => {
                         I love travelling, and wanted to build an app that would
                         allow me to pin, rate and share places I have been to.
                     </p>
-                    <ExternalLinks />
+                    <ExternalLinks handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
                 </div>
             </Parallax>
         </li>
