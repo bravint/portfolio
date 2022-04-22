@@ -1,14 +1,11 @@
-import { ExternalLinks } from './ExternalLinks';
 import { Parallax } from 'react-scroll-parallax';
+
+import { ExternalLinks } from './ExternalLinks';
 import FootballPng from '../../assets/football.png';
 
 import '../../styles/projects.css';
 
 export const Football = () => {
-    // const handleDemoClick = () => {}
-
-    // const handleCodeClick = () => {}
-
     return (
         <li className="project-container">
             <Parallax speed={-20}>
@@ -23,10 +20,7 @@ export const Football = () => {
                         play each other in UEFA competitions I would be able to
                         have an overview of their form prior to their matches
                     </p>
-                    <ExternalLinks
-                        // handleCodeClick={handleCodeClick}
-                        // handleDemoClick={handleDemoClick}
-                    />
+                    <ExternalLinks/>
                 </div>
             </Parallax>
             <Parallax speed={20}>
