@@ -1,10 +1,15 @@
 import '../../styles/projects.css';
 
-export const ExternalLinks = () => {
+export const ExternalLinks = (props) => {
+    const { handleCodeClick, handleDemoClick } = props;
     return (
         <section className="external-links">
-            <p className="project-ext-links">View Code</p>
-            <p className="project-ext-links">Live Demo</p>
+            <p className="project-ext-links" onClick={handleCodeClick}>
+                View Code
+            </p>
+            <p className="project-ext-links" onClick={handleDemoClick}>
+                Live Demo
+            </p>
         </section>
     );
 };

@@ -1,6 +1,6 @@
 .home {
     height: 100vh;
-    /* background-color: var(--clr-blue); */
+    background-color: var(--clr-offwhite);
     display: grid;
     margin: auto;
     justify-content: center;

@@ -1,5 +1,5 @@
 .project-container {
-    height: 80vh;
+    height: 60vh;
     margin: auto;
     background-color: var(--clr-offwhite);
     padding: 2rem;
@@ -10,9 +10,9 @@
     color: var(--clr-blue);
 }
 
-.last-project {
-    height: 100vh;
-}
+/* .last-project {
+    height: 60vh;
+} */
 
 .position-left {
     padding-left: 3rem;
@@ -31,7 +31,7 @@
 .project-title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 6rem;
     color: var(--clr-red);
     font-style: italic;
     

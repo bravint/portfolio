@@ -7,7 +7,7 @@ import NomadPng from '../../assets/nomad.png';
 export const Nomad = () => {
     return (
         <li className="project-container">
-            <Parallax speed={20}>
+            <Parallax speed={10}>
             <div className="project-preview">
                 <img
                     className="project-preview"
@@ -16,14 +16,12 @@ export const Nomad = () => {
                 />
             </div>
             </Parallax>
-            <Parallax speed={-20}>
+            <Parallax speed={-10}>
             <div className="project-details position-right">
                 <h2 className="project-title">
-                    2.
-                    <br />
                     Spontaneously
                     <br />
-                    Nomadic.
+                    Nomadic .
                 </h2>
                 <p className="project-subtitle">
                     I love travelling, and wanted to build an app that would

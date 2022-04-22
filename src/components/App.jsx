@@ -10,20 +10,23 @@ import '../styles/app.css';
 export const App = () => {
     return (
         <ParallaxProvider>
-        <div className="app">
-            {/* <div>
-                <Header />
-            </div> */}
-            <div>
-                <Home />
+            <div className="app">
+                <div className="sidebar"></div>
+                <div>
+                    <div>
+                        <Header />
+                    </div>
+                    <div>
+                        <Home />
+                    </div>
+                    <div>
+                        <Projects />
+                    </div>
+                    <div>
+                        <Footer />
+                    </div>
+                </div>
             </div>
-            <div>
-                <Projects />
-            </div>
-            {/* <div>
-                <Footer />
-            </div> */}
-        </div>
         </ParallaxProvider>
     );
 };
