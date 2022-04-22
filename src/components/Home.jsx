@@ -1,3 +1,5 @@
+import {ScrollIndicator} from './ScrollIndicator'
+
 import '../styles/home.css';
 
 export const Home = () => {
@@ -19,7 +21,7 @@ export const Home = () => {
                 </div>
                 {/* <img className="avatar" src="avatar-edit.png" alt="avatar" /> */}
             </section>
-            <p className="scroll">SCROLL TO SEE PROJECTS</p>
+            <ScrollIndicator />
         </>
     );
 };
