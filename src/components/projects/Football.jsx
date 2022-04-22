@@ -20,7 +20,7 @@ export const Football = () => {
                         play each other in UEFA competitions I would be able to
                         have an overview of their form prior to their matches
                     </p>
-                    <ExternalLinks/>
+                    <ExternalLinks />
                 </div>
             </Parallax>
             <Parallax speed={20}>

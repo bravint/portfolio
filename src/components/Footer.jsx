@@ -1,11 +1,8 @@
-import '../styles/footer.css'
+import '../styles/footer.css';
 
 export const Footer = () => {
     return (
         <footer>
-            <ul>
-                
-            </ul>
             <ul>
                 <li>Github</li>
                 <li>LinkedIn</li>

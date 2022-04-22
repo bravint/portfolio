@@ -17,11 +17,29 @@ export const Contact = () => {
     return (
         <form>
             <label labelFor="name">Name:</label>
-            <input id="name" type="text" value={form.name} onChange={handleChange} required />
+            <input
+                id="name"
+                type="text"
+                value={form.name}
+                onChange={handleChange}
+                required
+            />
             <label labelFor="email">Email Address:</label>
-            <input id="email" type="text" value={form.email} onChange={handleChange} required />
+            <input
+                id="email"
+                type="text"
+                value={form.email}
+                onChange={handleChange}
+                required
+            />
             <label labelFor="message">Message:</label>
-            <input id="email" type="text" value={form.message} onChange={handleChange} required />
+            <input
+                id="email"
+                type="text"
+                value={form.message}
+                onChange={handleChange}
+                required
+            />
         </form>
     );
 };
