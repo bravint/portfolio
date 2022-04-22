@@ -12,9 +12,13 @@
     padding-left: 5rem;
 }
 
-.position-right, .position-right > * {
-    text-align: right;
+.position-right {
     padding-right: 5rem;
+}
+
+.position-right,
+.position-right > * {
+    text-align: right;
     justify-content: right;
 }
 
@@ -22,13 +26,12 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 5rem;
-    margin: 5rem 0;
+    padding: 5rem 0;
     font-style: italic;
 }
 
 .project-subtitle {
     font-size: 2rem;
-    margin: 5rem 0;
 }
 
 .project-preview {
@@ -37,6 +40,7 @@
 }
 
 .external-links {
+    padding: 5rem 0;
     display: grid;
     grid-template-columns: repeat(2, 15rem);
     text-align: center;
