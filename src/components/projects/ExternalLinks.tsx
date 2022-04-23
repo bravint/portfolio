@@ -1,6 +1,6 @@
 import '../../styles/projects.css';
 
-export const ExternalLinks = (props) => {
+export const ExternalLinks = (props : any) => {
     const { handleCodeClick, handleDemoClick } = props;
     return (
         <section className="external-links">
