@@ -8,7 +8,7 @@ export const Projects = () => {
             <ul>
                 <Football />
                 <Nomad />
-                <PokemonForum />
+                {/* <PokemonForum /> */}
             </ul>
         </section>
     );

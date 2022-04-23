@@ -20,9 +20,9 @@ export const Home = () => {
                     <ReactTypingEffect
                         staticText={'I build'}
                         typingDelay={1000}
-                        speed={50}
-                        eraseSpeed={50}
+                        speed={70}
                         eraseDelay={1000}
+                        eraseSpeed={100}
                         text={[
                             `websites`,
                             `apps`,
