@@ -4,14 +4,15 @@ header {
     align-items: center;
     position: fixed;
     background-color: white;
-    width: calc(100% - 4rem);
-    max-width: 1920px;
+    width: 100%;
+    max-width: 1440px;
     z-index: 1;
     color: var(--clr-blue);
     height: 4rem;
 }
 
 .contact-int-link {
+    margin-right: 4rem;
     font-size: 1rem;
     padding: 0.5rem 2rem;
     background-color: var(--clr-red);

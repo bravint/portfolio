@@ -17,7 +17,7 @@ export const Home = () => {
                 <div></div>
                 <div className="hero-text">
                     <h1 className="hello-title">
-                        Hello <br /> World.
+                        Hello <br /> World<span className="dot">.</span>
                     </h1>
                     <h1 className="hello-subtitle">I'm Bravin</h1>
                     <h1 className="hello-subtitle">

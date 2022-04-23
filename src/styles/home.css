@@ -1,17 +1,16 @@
 .home {
-    height: calc( 100vh - 4rem);
+    height: calc(100vh - 4rem);
     background-color: var(--clr-offwhite);
     display: grid;
     grid-template-rows: 5rem 1fr 5rem;
     justify-content: center;
     align-items: center;
     color: var(--clr-blue);
-    margin-top: 4rem;
 }
 
 .hello-title {
     text-transform: uppercase;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 900;
     line-height: 1;
     color: var(--clr-red);
@@ -20,7 +19,7 @@
 
 .hello-subtitle {
     margin: 1.5rem 0;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 60rem;
 }
 
@@ -54,4 +53,11 @@
     text-align: center;
     padding-bottom: 1rem;
     font-weight: 700;
+}
+
+.dot {
+    animation-name: blinker;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }

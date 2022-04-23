@@ -15,7 +15,7 @@ export const Nomad = () => {
     }
     return (
         <li className="project-container">
-            <Parallax speed={20}>
+            <Parallax speed={0}>
                 <div className="project-preview">
                     <img
                         className="project-preview"

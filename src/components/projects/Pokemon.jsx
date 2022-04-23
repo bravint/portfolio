@@ -16,7 +16,7 @@ export const PokemonForum = () => {
 
     return (
         <li className="project-container last-project">
-            <Parallax speed={-20}>
+            <Parallax speed={0}>
                 <div className="project-details position-left ">
                     <h2 className="project-title">
                         Pokémon

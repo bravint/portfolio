@@ -1,6 +1,6 @@
 .app {
     margin: auto;
-    max-width: 1920px;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: 4rem 1fr;
 }

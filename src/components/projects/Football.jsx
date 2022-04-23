@@ -16,7 +16,7 @@ export const Football = () => {
 
     return (
         <li className="project-container">
-            <Parallax speed={-20}>
+            <Parallax speed={0}>
                 <div className="project-details position-left">
                     <h2 className="project-title">
                         Football

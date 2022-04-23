@@ -4,7 +4,7 @@ import { PokemonForum } from './projects/Pokemon';
 
 export const Projects = () => {
     return (
-        <section>
+        <section className="projects">
             <ul>
                 <Football />
                 <Nomad />
