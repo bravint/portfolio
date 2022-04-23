@@ -27,7 +27,7 @@ export const Home = () => {
                             `websites`,
                             `apps`,
                             `databases`,
-                            `emoji pyramids`,
+                            `emoji pyramids 😜`,
                         ]}
                     />
                 </h1>

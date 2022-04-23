@@ -1,4 +1,5 @@
 :root {
+    --clr-white:hsl(0, 0%, 100%); 
     --clr-offwhite: hsl(0, 0%, 97%);
     --clr-blue: hsl(227, 24%, 34%);
     --clr-red: hsl(358, 98%, 65%);
