@@ -22,10 +22,11 @@
     display: grid;
     gap: 0.9rem;
 }
+
 .social-icon {
     width: 1.8rem;
 }
 
-.main {
-    border-radius: 4px;
+.social-icon:hover {
+    cursor: pointer;
 }

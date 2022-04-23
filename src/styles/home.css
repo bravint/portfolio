@@ -1,26 +1,27 @@
 .home {
     height: calc(100vh - 4rem);
-    background-color: var(--clr-offwhite);
+    margin-top: 4rem;
     display: grid;
     grid-template-rows: 5rem 1fr 5rem;
     justify-content: center;
     align-items: center;
+    background-color: var(--clr-offwhite);
     color: var(--clr-blue);
 }
 
 .hello-title {
+    margin: auto;
+    color: var(--clr-red);
     text-transform: uppercase;
     font-size: 8rem;
     font-weight: 900;
     line-height: 1;
-    color: var(--clr-red);
-    margin: auto;
 }
 
 .hello-subtitle {
+    width: 60rem;
     margin: 1.5rem 0;
     font-size: 3rem;
-    width: 60rem;
 }
 
 .hello-text {
@@ -34,30 +35,8 @@
     border: 1px solid black;
 }
 
-
-.scroll-container {
-    height: 3rem;
-}
-
-.home-external-links {
-    display: grid;
-    grid-template-columns: repeat(2, 15rem);
-    text-align: center;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
 .scroll {
-    background-color: var(--clr-offwhite);
     color: var(--clr-blue);
     text-align: center;
-    padding-bottom: 1rem;
-    font-weight: 700;
-}
-
-.dot {
-    animation-name: blinker;
-    animation-duration: 0.7s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    font-weight: 900;
 }

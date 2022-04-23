@@ -15,8 +15,8 @@ export const ScrollIndicator = () => {
     }, []);
 
     return (
-        <div className="scroll-container">
+        <>
             {isVisible && <p className="scroll">SCROLL TO SEE PROJECTS</p>}
-        </div>
+        </>
     );
 };
