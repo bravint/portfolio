@@ -1,3 +1,5 @@
+import ReactTypingEffect from 'react-typing-effect';
+
 import { ScrollIndicator } from './ScrollIndicator';
 
 import '../styles/home.css';
@@ -15,8 +17,19 @@ export const Home = () => {
                     A Full-Stack Software Developer based in London
                 </h1>
                 <h1 className="hello-text">
-                    I build websites, databases, emoji pyramids - basically I
-                    love building stuff
+                    <ReactTypingEffect
+                        staticText={'I build'}
+                        typingDelay={1000}
+                        speed={50}
+                        eraseSpeed={50}
+                        eraseDelay={1000}
+                        text={[
+                            `websites`,
+                            `apps`,
+                            `databases`,
+                            `emoji pyramids`,
+                        ]}
+                    />
                 </h1>
             </div>
             <ScrollIndicator />

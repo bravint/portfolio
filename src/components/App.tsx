@@ -11,7 +11,7 @@ import '../styles/app.css';
 export const App = () => {
     return (
         <ParallaxProvider>
-            <div className="app">
+            <section className="app">
                 <Sidebar />
                 <section className="main">
                     <Header />
@@ -19,7 +19,7 @@ export const App = () => {
                     <Projects />
                     <Footer />
                 </section>
-            </div>
+            </section>
         </ParallaxProvider>
     );
 };
