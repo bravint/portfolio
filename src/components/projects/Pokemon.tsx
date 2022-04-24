@@ -11,7 +11,7 @@ export const PokemonForum = () => {
     }
 
     const handleDemoClick = () => {
-        window.open('https://github.com/bravint/project-team-fullstack', '_blank');
+        window.open('https://pokemon-forum.herokuapp.com/', '_blank');
     }
 
     return (
