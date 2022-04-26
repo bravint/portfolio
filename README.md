@@ -1,12 +1,12 @@
 # Personal Website / portfolio
 ## Live Page
 
-https://bravin.co.uk
+https://bravint-portfolio.vercel.app
 
 ## Introduction
 
-My personal portfolio, see it at http://bravin.co.uk
+My personal portfolio.
 
-Coded in React, hosted on a custom domain directing to to a VPS hosted on DigitalOcean.
+Coded in React, looking to host on a custom domain directing to a VPS hosted on DigitalOcean.
 
 Working to transition my projects to this VPS and using NGINX to serve them all from the same domain.
