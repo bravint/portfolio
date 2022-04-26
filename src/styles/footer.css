@@ -4,8 +4,7 @@ footer {
     grid-template-rows: 5rem 1fr 5rem;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-offwhite);
-    color: var(--clr-blue);
+    color: var(--clr-primary);
 }
 
 .footer-ext-links {
@@ -18,11 +17,10 @@ footer {
 }
 
 .footer-title {
-    color: var(--clr-red);
+    color: var(--clr-secondary);
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 900;
     line-height: 1;
     text-align: center;
-    
 }

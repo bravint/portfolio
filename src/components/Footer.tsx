@@ -17,7 +17,7 @@ export const Footer = () => {
                     </p>
                 </section>
             </div>
-            <p className="scroll">Bravin Thillainathan 2022</p>
+            <p className="scroll">Created by Bravin Thillainathan &copy;2022</p>
         </footer>
     );
 };

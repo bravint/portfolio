@@ -24,13 +24,12 @@ export const Football = () => {
                         Stats.
                     </h2>
                     <p className="project-subtitle">
-                        A place for me to follow european teams, so I
-                        have an overview of their form prior to matches in UEFA competitions.
+                        I wanted a central place for data on the major European leagues, to give me an overview of teams' form prior to matches in UEFA competitions.
                     </p>
                     <ExternalLinks handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
                 </div>
             </Parallax>
-            <Parallax speed={20}>
+            <Parallax speed={30}>
                 <div className="project-preview">
                     <img
                         className="project-preview"

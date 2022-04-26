@@ -1,6 +1,6 @@
 import { Parallax } from 'react-scroll-parallax';
 
-import { ExternalLinks } from './ExternalLinks';
+import { ExternalLink } from './ExternalLinks';
 import PokemonPng from '../../assets/pokemon.png';
 
 import '../../styles/projects.css';
@@ -28,10 +28,10 @@ export const PokemonForum = () => {
                         original (and best) Pokémon from Pokémon Red, Blue and
                         Yellow.
                     </p>
-                    <ExternalLinks handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
+                    <ExternalLink handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
                 </div>
             </Parallax>
-            <Parallax speed={20}>
+            <Parallax speed={30}>
                 <div className="project-preview">
                     <img
                         className="project-preview"

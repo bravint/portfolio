@@ -6,7 +6,7 @@ import '../styles/home.css';
 
 export const Home = () => {
     return (
-        <section className="home">
+        <section className="home" id="home">
             <div>&nbsp;</div>
             <div className="hero-text">
                 <h1 className="hello-title">
@@ -20,7 +20,7 @@ export const Home = () => {
                     <ReactTypingEffect
                         staticText={'I build'}
                         typingDelay={1000}
-                        speed={70}
+                        speed={100}
                         eraseDelay={1000}
                         eraseSpeed={100}
                         text={[

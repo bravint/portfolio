@@ -5,15 +5,15 @@
     grid-template-rows: 5rem 1fr 5rem;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-offwhite);
-    color: var(--clr-blue);
+    background-color: var(--clr-dark);
+    color: var(--clr-primary);
 }
 
 .hello-title {
     margin: auto;
-    color: var(--clr-red);
+    color: var(--clr-secondary);
     text-transform: uppercase;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 900;
     line-height: 1;
 }
@@ -21,7 +21,7 @@
 .hello-subtitle {
     width: 60rem;
     margin: 1.5rem 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .hello-text {
@@ -36,7 +36,7 @@
 }
 
 .scroll {
-    color: var(--clr-blue);
+    color: var(--clr-primary);
     text-align: center;
     font-weight: 900;
 }

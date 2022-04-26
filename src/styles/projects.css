@@ -1,14 +1,19 @@
+.projects,
+.about {
+    background-color: var(--clr-dark);
+    color: var(--clr-primary);
+    padding-top: 4rem;
+}
+
 .project-container {
-    height: calc(50vh - 4rem);
-    min-height: 1000px;
+    height: calc(45vh - 4rem);
+    min-height: 700px;
     margin: auto;
-    background-color: var(--clr-offwhite);
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
-    color: var(--clr-blue);
 }
 
 .position-right,
@@ -22,7 +27,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 4rem;
-    color: var(--clr-red);
+    color: var(--clr-secondary);
     font-style: italic;
 }
 
@@ -50,8 +55,14 @@
 .project-ext-links {
     font-size: 1.5rem;
     padding: 1rem;
-    background-color: var(--clr-blue);
+    background-color: var(--clr-primary);
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    width: 13rem;
+}
+
+.position-right .external-links {
+    display: flex;
+    justify-content: flex-end;
 }

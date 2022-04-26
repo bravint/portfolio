@@ -4,19 +4,26 @@ header {
     align-items: center;
     position: fixed;
     background-color: white;
-    width: 100%;
-    max-width: 1440px;
+    width: calc(100% - 4rem);
+    max-width: calc(1440px - 4rem);
     z-index: 1;
-    color: var(--clr-blue);
+    color: var(--clr-primary);
+    background-color: var(--background);
     height: 4rem;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1.5rem;
+    align-items: center;
+}
+
 .contact-int-link {
-    margin-right: 4rem;
     font-size: 1rem;
     padding: 0.5rem 2rem;
-    background-color: var(--clr-red);
+    background-color: var(--clr-secondary);
     color: white;
     border-radius: 4px;
-    cursor: pointer;  
+    cursor: pointer;
 }

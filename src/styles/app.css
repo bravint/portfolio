@@ -30,3 +30,11 @@
 .social-icon:hover {
     cursor: pointer;
 }
+
+.main > .home,
+.about,
+.stack,
+.projects,
+footer {
+    background-color: var(--foreground);
+}

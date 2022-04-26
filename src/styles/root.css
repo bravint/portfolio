@@ -1,6 +1,34 @@
 :root {
-    --clr-white:hsl(0, 0%, 100%); 
-    --clr-offwhite: hsl(0, 0%, 97%);
-    --clr-blue: hsl(227, 24%, 34%);
-    --clr-red: hsl(358, 98%, 65%);
+    --clr-light: hsl(0, 0%, 100%);
+    --clr-dark: hsl(0, 0%, 97%);
+    --clr-primary: hsl(227, 24%, 34%);
+    --clr-secondary: hsl(358, 98%, 65%);
+    --clr-accent: #ff7750;
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+
+    /* --ff-title: "Playfair Display", serif;
+    --ff-body: "Assistant", sans-serif; */
+}
+
+.darkmode {
+    --clr-light: hsl(212, 32%, 8%);
+    --clr-dark: hsl(212, 32%, 8%);
+    --clr-primary: hsl(0, 0%, 97%);
+    --clr-secondary: hsl(358, 98%, 65%);
+    --clr-accent: #ff7750;
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+}
+
+.title {
+    color: var(--clr-secondary);
+    padding-top: 4rem;
+}
+
+.text {
+    color: var(--clr-primary);
+    font-size: 1.5rem;
 }

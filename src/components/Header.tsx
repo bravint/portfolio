@@ -4,9 +4,23 @@ export const Header = () => {
     return (
         <header>
             <h2>Bravin Thillainathan</h2>
-            <a className="contact-int-link" href="mailto:contact@bravin.co.uk">
-                Contact
-            </a>
+            <nav>
+                <a className="" href="#home">
+                    Home
+                </a>
+                <a className="" href="#about">
+                    About
+                </a>
+                <a className="" href="#projects">
+                    Projects
+                </a>
+                <a
+                    className="contact-int-link"
+                    href="mailto:contact@bravin.co.uk"
+                >
+                    Say Hi!
+                </a>
+            </nav>
         </header>
     );
 };
