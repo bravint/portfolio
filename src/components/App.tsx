@@ -19,8 +19,8 @@ export const App = () => {
                 <section className="main">
                     <Header />
                     <Home />
-                    {/* <About />
-                    <Stack /> */}
+                    <About />
+                    <Stack />
                     <Projects />
                     <Footer />
                 </section>

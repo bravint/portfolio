@@ -1,4 +1,4 @@
-import '../styles/app.css'
+import '../styles/app.css';
 
 export const About = () => {
     return (
@@ -13,13 +13,16 @@ export const About = () => {
             </p>
             <p className="text">
                 Over time I went from breaking a bunch of stuff, to fixing
-                stuff, to building stuff. And I realised I quite liked building things. 
+                stuff, to building stuff. And I realised I quite liked building
+                things.
             </p>
             <p className="text">
                 As a developer I get to combine my love for coding with my love
-                of building things. Take a look at some of my projects to see
-                what I'm currently working on and to see what tools I'm
-                currently using.
+                of building things.
+            </p>
+            <p className="text">
+                Take a look at some of my projects to see what I'm currently
+                working on and to see what tools I'm currently using.
             </p>
         </section>
     );

@@ -5,13 +5,13 @@ export const Header = () => {
         <header>
             <h2>Bravin Thillainathan</h2>
             <nav>
-                <a className="" href="#home">
+                <a className="header-link" href="#home">
                     Home
                 </a>
-                <a className="" href="#about">
+                <a className="header-link" href="#about">
                     About
                 </a>
-                <a className="" href="#projects">
+                <a className="header-link" href="#projects">
                     Projects
                 </a>
                 <a

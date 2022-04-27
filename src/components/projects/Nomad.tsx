@@ -1,6 +1,6 @@
 import { Parallax } from 'react-scroll-parallax';
 
-import { ExternalLink } from './ExternalLinks';
+import { ExternalLinks } from './ExternalLinks';
 import NomadPng from '../../assets/nomad.png';
 
 import '../../styles/projects.css';
@@ -11,7 +11,7 @@ export const Nomad = () => {
     }
 
     const handleDemoClick = () => {
-        window.open('https://github.com/bravint/spontaneously-nomadic-client', '_blank');
+        window.open('https://spontaneously-nomadic-client.vercel.app', '_blank');
     }
     return (
         <li className="project-container">
@@ -26,7 +26,7 @@ export const Nomad = () => {
             </Parallax>
             <Parallax speed={0}>
                 <div className="project-details position-right">
-                    <h2 className="project-title">
+                <h2 className="project-title">
                         Spontaneously
                         <br />
                         Nomadic.
@@ -34,8 +34,10 @@ export const Nomad = () => {
                     <p className="project-subtitle">
                         I love travelling, and wanted to build an app that would
                         allow me to pin, rate and share places I have been to.
+                        <br /><br />
+                        If you would like to demo this project use the <br /> email: <i>test@mail.com</i> and password: <i>password</i>.
                     </p>
-                    <ExternalLink handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
+                    <ExternalLinks handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
                 </div>
             </Parallax>
         </li>

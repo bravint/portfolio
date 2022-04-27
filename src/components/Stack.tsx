@@ -1,24 +1,24 @@
 export const Stack = () => {
     return (
         <section className="stack">
-            <h1 className="title">Tech stack</h1>
-            <p>These are some of the tools I've used so far</p>
+            <h1 className="title">Tech stack.</h1>
+            <h1 className="subtitle">These are some of the tools I've used so far</h1>
             <div>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React</p>
-                <p>Node.js</p>
-                <p>TypeScript</p>
-                <p>Prisma</p>
-                <p>PostgreSQL</p>
-                <p>NGINX</p>
+            <p className="text">HTML</p>
+            <p className="text">CSS</p>
+            <p className="text">JavaScript</p>
+            <p className="text">React</p>
+            <p className="text">Node.js</p>
+            <p className="text">TypeScript</p>
+            <p className="text">Prisma</p>
+            <p className="text">PostgreSQL</p>
+            <p className="text">NGINX</p>
             </div>
-            <p>
+            <p className="text">
                 Currently learning TypeScript to make my code more robust and to
                 serve as an introduction to statically-typed languages, and Docker as an alternative method of hosting apps on the internet
             </p>
-            <p>Check back to see what new tools I've learnt to use!</p>
+            <p className="text">Check back to see what new tools I've learnt to use!</p>
         </section>
     )
 };

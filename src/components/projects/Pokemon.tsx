@@ -7,12 +7,15 @@ import '../../styles/projects.css';
 
 export const PokemonForum = () => {
     const handleCodeClick = () => {
-        window.open('https://github.com/bravint/project-team-fullstack', '_blank');
-    }
+        window.open(
+            'https://github.com/bravint/project-team-fullstack',
+            '_blank'
+        );
+    };
 
     const handleDemoClick = () => {
         window.open('https://pokemon-forum.herokuapp.com/', '_blank');
-    }
+    };
 
     return (
         <li className="project-container last-project">
@@ -28,7 +31,10 @@ export const PokemonForum = () => {
                         original (and best) Pokémon from Pokémon Red, Blue and
                         Yellow.
                     </p>
-                    <ExternalLink handleCodeClick={handleCodeClick} handleDemoClick={handleDemoClick}/>
+                    <ExternalLink
+                        handleCodeClick={handleCodeClick}
+                        handleDemoClick={handleDemoClick}
+                    />
                 </div>
             </Parallax>
             <Parallax speed={30}>

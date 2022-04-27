@@ -37,4 +37,5 @@
 .projects,
 footer {
     background-color: var(--foreground);
+    padding: 2rem;
 }

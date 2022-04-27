@@ -27,7 +27,7 @@ export const Leaderboard = () => {
             </Parallax>
             <Parallax speed={0}>
                 <div className="project-details position-right">
-                    <h2 className="project-title">
+                <h2 className="project-title">
                         Leaderboard
                         <br />
                         Generator.

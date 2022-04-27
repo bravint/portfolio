@@ -27,3 +27,8 @@ nav {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.header-link,
+.contact-int-link {
+    font-weight: 700;
+}

@@ -1,15 +1,13 @@
-.projects,
-.about {
+main > * {
     background-color: var(--clr-dark);
     color: var(--clr-primary);
-    padding-top: 4rem;
+    padding: 2rem;
 }
 
 .project-container {
     height: calc(45vh - 4rem);
     min-height: 700px;
     margin: auto;
-    padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -23,8 +21,6 @@
 }
 
 .project-title {
-    grid-area: desc;
-    text-transform: uppercase;
     font-weight: 900;
     font-size: 4rem;
     color: var(--clr-secondary);
@@ -65,4 +61,8 @@
 .position-right .external-links {
     display: flex;
     justify-content: flex-end;
+}
+
+.project-subtitle {
+    color: var(--clr-primary)
 }
