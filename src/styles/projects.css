@@ -1,7 +1,7 @@
-main > * {
+.projects {
     background-color: var(--clr-dark);
     color: var(--clr-primary);
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 
 .project-container {

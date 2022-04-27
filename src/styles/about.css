@@ -1,0 +1,7 @@
+.about {
+    background-color: var(--clr-dark);
+    color: var(--clr-primary);
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}

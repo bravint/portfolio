@@ -26,9 +26,14 @@ nav {
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: 700;
 }
 
-.header-link,
-.contact-int-link {
+.header-link {
     font-weight: 700;
+    color: var(--clr-primary);
+}
+
+.header-link:hover {
+    text-decoration: underline;
 }

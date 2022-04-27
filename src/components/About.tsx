@@ -1,13 +1,14 @@
-import '../styles/app.css';
+import '../styles/about.css';
 
 export const About = () => {
     return (
         <section className="about" id="about">
-            <h1 className="title">About</h1>
+            <div>
+            <h1 className="title">About.</h1>
             <p className="text">
                 My coding journey started as a kid writing small batch files in
                 QBasic to automate the process of backing files up to floppy
-                disks. This was useful as I liked taking stuff apart to figure
+                disks, which was useful as I liked taking stuff apart to figure
                 out how they worked. This included the family computer. I broke
                 it. A lot.
             </p>
@@ -17,13 +18,14 @@ export const About = () => {
                 things.
             </p>
             <p className="text">
-                As a developer I get to combine my love for coding with my love
+                As a software developer I get to combine my love for coding with my love
                 of building things.
             </p>
             <p className="text">
                 Take a look at some of my projects to see what I'm currently
                 working on and to see what tools I'm currently using.
             </p>
+            </div>
         </section>
     );
 };
