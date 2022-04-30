@@ -7,7 +7,6 @@ export const Footer = () => {
         <footer>
             <div>&nbsp;</div>
             <div>
-                <h1 className="footer-title">Find more at</h1>
                 <section className="footer-ext-links">
                     <p className="project-ext-links" onClick={handleGithubClick}>
                         GitHub

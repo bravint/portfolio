@@ -8,17 +8,11 @@ export const About = () => {
             <p className="text">
                 My coding journey started as a kid writing small batch files in
                 QBasic to automate the process of backing files up to floppy
-                disks, which was useful as I liked taking stuff apart to figure
-                out how they worked. This included the family computer. I broke
+                disks, which was useful as I liked taking apart the family computer to figure out how it worked. I broke
                 it. A lot.
             </p>
             <p className="text">
-                Over time I went from breaking a bunch of stuff, to fixing
-                stuff, to building stuff. And I realised I quite liked building
-                things.
-            </p>
-            <p className="text">
-                As a software developer I get to combine my love for coding with my love
+                I spent a few years running a business, where again I created small scripts to automate some of the day to day tasks. And then I decided I should try and learn how to make fully fledged websites and apps. Fast forward to today and here I am, a full stack developer that gets to combine my love for coding with my love
                 of building things.
             </p>
             <p className="text">
