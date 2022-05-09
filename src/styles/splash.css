@@ -1,0 +1,21 @@
+.splash {
+    height: 30vh;
+    min-height: auto;
+    width: 70vw;
+    max-width: 1650px;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    color: var(--title);
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+}

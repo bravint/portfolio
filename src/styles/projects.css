@@ -1,0 +1,110 @@
+.projects {
+    display: grid;
+    gap: 5rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .project-container {
+        display: grid;
+        align-items: center;
+    }
+
+    .project-container.right {
+        grid-template-columns: 1.5fr 2fr;
+        grid-template-areas: 'image description';
+    }
+
+    .project-container.left {
+        grid-template-columns: 2fr 1.5fr;
+        grid-template-areas: ' description image';
+    }
+    .left > .project-details {
+        padding-right: 3rem;
+    }
+
+    .right > * {
+        padding-left: 3rem;
+        text-align: right;
+    }
+
+    .right > .project-details > .external-links {
+        justify-content: right;
+    }
+
+    .project-preview {
+        grid-area: image;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .project-container {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .project-container.left,
+    .project-container.right {
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            'image'
+            'description';
+    }
+
+    .project-preview {
+        grid-area: image;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+    }
+
+    .project {
+        padding-bottom: 3rem;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+.project-preview.football {
+    background-image: url('../assets/images/football.png');
+}
+
+.project-preview.nomad {
+    background-image: url('../assets/images/nomad.png');
+}
+
+.project-preview.pokemon {
+    background-image: url('../assets/images/pokemon.png');
+}
+
+.external-links {
+    display: grid;
+    grid-template-columns: repeat(2, 13rem);
+    text-align: center;
+    gap: 1rem;
+    margin: 1.5rem 0 0 0;
+}
+
+.project-ext-links {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 13rem;
+}
+
+.project-ext-links:hover {
+    background-color: var(--background2);
+    font-weight: 400;
+    color: white;
+}
+
+.project-title {
+    font-weight: 400;
+    color: var(--background2);
+}
