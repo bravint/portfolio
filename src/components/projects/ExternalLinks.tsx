@@ -13,14 +13,3 @@ export const ExternalLinks = (props : any) => {
         </section>
     );
 };
-
-// export const ExternalLink = (props) => {
-//     const { handleCodeClick } = props;
-//     return (
-//         <section className="external-links">
-//             <p className="project-ext-links" onClick={handleCodeClick}>
-//                 View Code
-//             </p>
-//         </section>
-//     );
-// };

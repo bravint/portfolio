@@ -3,16 +3,9 @@ import { ExternalLinks } from './ExternalLinks';
 import '../../styles/projects.css';
 
 export const PokemonForum = () => {
-    const handleCodeClick = () => {
-        window.open(
-            'https://github.com/bravint/project-team-fullstack',
-            '_blank'
-        );
-    };
+    const handleCodeClick = () => window.open('https://github.com/bravint/project-team-fullstack','_blank');
 
-    const handleDemoClick = () => {
-        window.open('https://pokemon-forum.herokuapp.com/', '_blank');
-    };
+    const handleDemoClick = () => window.open('https://pokemon-forum.herokuapp.com/', '_blank');
 
     return (
         <section className="project">

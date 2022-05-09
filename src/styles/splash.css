@@ -1,6 +1,6 @@
 .splash {
     height: 30vh;
-    min-height: auto;
+    min-height: 300px;
     width: 70vw;
     max-width: 1650px;
     margin: auto;
