@@ -1,6 +1,7 @@
-import '../styles/footer.css';
 import Linkedin from '../assets/icons/linkedin-brands.svg';
 import Github from '../assets/icons/github-brands.svg';
+
+import '../styles/footer.css';
 
 const handleGithubClick = () => window.open(EXT_URL.GITHUB, '_blank');
 

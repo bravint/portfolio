@@ -1,16 +1,11 @@
 import { ExternalLinks } from './ExternalLinks';
-// import FootballPng from '../../assets/football.png';
 
 import '../../styles/projects.css';
 
 export const Football = () => {
-    const handleCodeClick = () => {
-        window.open('https://github.com/bravint/football-stats', '_blank');
-    };
+    const handleCodeClick = () => window.open('https://github.com/bravint/football-stats', '_blank');
 
-    const handleDemoClick = () => {
-        window.open('https://football-stats-bravint.vercel.app/', '_blank');
-    };
+    const handleDemoClick = () => window.open('https://football-stats-bravint.vercel.app/', '_blank');
 
     return (
         <section className="project">
