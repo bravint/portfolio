@@ -10,7 +10,6 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
     align-items: center;
 }
 
@@ -37,8 +36,8 @@
 }
 
 .project-preview {
-    grid-area: img;
-    border-radius: 12px;
+    height: 100%;
+    width: 100%;
 }
 
 .external-links {
