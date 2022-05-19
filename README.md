@@ -1,7 +1,7 @@
 # Personal Website / portfolio
 ## Live Page
 
-https://bravint-portfolio.vercel.app
+https://bravint.co.uk
 
 ## Introduction
 
