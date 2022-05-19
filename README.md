@@ -1,7 +1,7 @@
 # Personal Website / portfolio
 ## Live Page
 
-https://bravint.co.uk
+https://bravin.co.uk
 
 ## Introduction
 
