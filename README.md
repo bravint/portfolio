@@ -1,4 +1,4 @@
-# Personal Website / portfolio
+# Personal Website / Portfolio
 ## Live Page
 
 https://bravin.co.uk
