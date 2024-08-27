@@ -8,18 +8,18 @@ import { Stack } from './Stack';
 import '../styles/app.css';
 
 export const App = () => {
-    return (
-        <div className="app" id="home">
-            <div className="content">
-                <Splash />
-                <div className="main">
-                    <Header />
-                    <About />
-                    <Stack />
-                    <Projects />
-                </div>
-                <Footer />
-            </div>
-        </div>
-    );
+	return (
+		<div className="app" id="home">
+			<div className="content">
+				<Splash />
+				<div className="main">
+					<Header />
+					<About />
+					<Stack />
+					<Projects />
+				</div>
+				<Footer />
+			</div>
+		</div>
+	);
 };

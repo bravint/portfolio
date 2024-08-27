@@ -3,23 +3,23 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 html,
 body {
-    height: 100%;
-    scroll-behavior: smooth;
+	height: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -27,15 +27,15 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+	font: inherit;
 }
 
 p,
@@ -45,40 +45,40 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 #root,
 #__next {
-    isolation: isolate;
+	isolation: isolate;
 }
 
 :root {
-    --background: hsl(234, 15%, 13%);
-    --background2: #3a2f5f;
-    --accent: hsl(350, 74%, 60%);
-    --divider: hsl(240, 3%, 39%);
-    --title: hsl(0, 0%, 100%);
-    --text: hsl(240, 3%, 78%);
-    --accent2: hsl(0, 0%, 97%);
+	--background: hsl(234, 15%, 13%);
+	--background2: #3a2f5f;
+	--accent: hsl(350, 74%, 60%);
+	--divider: hsl(240, 3%, 39%);
+	--title: hsl(0, 0%, 100%);
+	--text: hsl(240, 3%, 78%);
+	--accent2: hsl(0, 0%, 97%);
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    text-align: center;
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-align: center;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: 300;
+	font-size: 2rem;
+	font-weight: 300;
 }
 
 p {
-    font-weight: 300;
-    font-size: 1.5rem;
+	font-weight: 300;
+	font-size: 1.5rem;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
