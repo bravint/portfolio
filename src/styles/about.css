@@ -1,11 +1,11 @@
 .about,
 .stack,
 .projects {
-    padding-bottom: 6rem;
+	padding-bottom: 6rem;
 }
 
 .about,
 .stack,
 .projects {
-    border-bottom: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 }
